@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    #outer {
+        width: 100%;
+        border: 1px solid;
+    }
+    #wer{
+        width: 100%;
+        border: 1px solid black;
+    }
+    #wer th, #wer td {
+
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+
+<h2>Single Border Around The Table</h2>
+
+<form method="post" action="">
+<table id="outer">
+    <p> Name of the Position:     	Officer (Ex Cadre-Publication Photographer) of Bangladesh Bank</p>
+    <p> Name of the Position:       Director (HRD-1), HRD-1, Bangladesh Bank, Head Office, Dhaka.</p>
+    <p> Age Maximum 32 Years in case of Son/daughter of Freedom Fighter or Handicapped person.
+        Caution: BB is Discouraging Fake or Duplicate CV/Application. Necessary actions will be taken against these applications.**
+        **Form should be filled up carefully. Resume will be screened using this information.**
+    </p>
+    <h6>You should fill up all required (*) information.</h6>
+    <tr>
+            <td width="20%">
+                <p>Name *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"><input type="text" name="Name"></td>
+            <td width="5%"> </td>
+        
+            <td width="20%">
+                <p>Nationality *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"><input type="text" name="Nationality"></td>
+            <td width="5%"> </td>
+        </tr>
+
+        <tr>
+            <td width="20%">
+                <p>Sex *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            
+            <td width="25%">
+                <table>
+                    <tr>
+                        <td width="12%"><input type="radio" id="female" name="Female"></td>
+                        <td><label for="female">Female</label><br></td>
+                        <td width="13%"><input type="radio" id="male" name="male"></td>
+                        <td><label for="male">Male</label><br></td>
+                    </tr>
+                </table>
+            </td>
+
+            <td width="5%"> </td>
+        
+            <td width="20%">
+                <p>NID *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"><input type="text" name="Nationality"></td>
+            <td width="5%"> </td>
+        </tr>
+
+        <tr>
+            <td width="20%">
+                <label for="maritial status">Maritial Status *             :</label>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"> 
+                <select name="cars" id="cars" form="carform">
+                <option value="Unmarried">Unmarried</option>
+                <option value="Maarried">Maarried</option>
+                <option value="Widow">Widow</option>
+            <option value="Divorced">Divorced</option>
+            </select> 
+            </td>
+            <td width="5%"> </td>
+        
+            <td width="20%">
+                <p>Present Address *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td rowspan="2"><textarea></textarea></td>
+            <td width="5%"> </td>
+        </tr>
+
+
+        <tr>
+            <td width="20%">
+                <label for="Date of Birth">Date Of Birth *</label>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"> <input type="datetime-local" id="Test_DatetimeLocal"> </td>
+            
+        
+        </tr>
+       
+
+        <tr>
+            <td width="20%">
+                <label for="Date of Birth">Age as on 11/06/2024	:</label>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"> <p> Years Months Days</p> </td>
+            <td width="5%"> </td>
+
+            <td width="20%">
+                <p>Permanent Address *</p>
+
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td rowspan="2"><textarea></textarea></td>
+        </tr>
+
+        <tr>
+            <td width="20%">
+                <p>Father's Name *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"><input type="text" name="Name"></td>
+            <td width="5%"> </td>
+        </tr>
+
+        <tr>
+            <td width="20%">
+                <p>Mother's Name *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"><input type="text" name="Name"></td>
+            <td width="5%"> </td>
+
+            <td rowspan="2" width="20%">
+                <label for="District">District *</label>
+            </td rowspan="2">
+            <td rowspan="2" width="5%">
+                <p>:</p>
+            </td>
+            <td rowspan="2" width="25%"> 
+                <select name="cars" id="cars" form="carform">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Rangpur">Rangpur</option>
+            </select> 
+            </td>
+            <td rowspan="2" width="5%"> </td>
+        </tr>
+
+        <tr>
+            <td width="20%">
+                <p>Spouse's Name *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"><input type="text" name="Name"></td>
+            <td width="5%"> </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <p>Contact Number *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"><input type="text" name="Name"></td>
+            <td width="5%"> </td>
+        
+            <td width="20%">
+                <p>Email (If any) *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%"><input type="text" name="Nationality"></td>
+            <td width="5%"> </td>
+        </tr>
+        <tr> <td colspan="100%"> <p style="color: red;">**Please upload your photo & signature carefully. No support will be provided if you upload photo instead of signature or signature instead of photo.</p></td> </tr>
+        
+        <tr>
+            <td width="20%">
+                <p>Photo *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%">
+                <fieldset style="margin-top:1px; height:220px;width: 200px;">
+                    <input type="hidden" id="chkphoto" name="chkphoto" value="0">
+                    <iframe id="imgiframe" style="top: 0;left: 0;right: 0;bottom: 0;scroll:no;overflow:hidden; background-color: black; height:220px; width:240px;" frameborder="0"></iframe>
+                </fieldset>
+            </td>
+            <td width="5%"> </td>
+        
+            <td width="20%">
+                <p>Sinature *</p>
+            </td>
+            <td width="5%">
+                <p>:</p>
+            </td>
+            <td width="25%">
+                <fieldset style="margin-top:1px; height:220px;width: 200px;">
+                    <input type="hidden" id="chkphoto" name="chkphoto" value="0">
+                    <iframe id="imgiframe"  style="top: 0;left: 0;right: 0;bottom: 0;scroll:no;overflow:hidden; background-color:black; height:220px; width:240px;" frameborder="0"></iframe>
+                </fieldset>
+            </td>
+            <td width="5%"> </td>
+        </tr>
+
+        <tr> <td colspan="100%"> <p style="color: black;">Educational Qualification: *</p></td> </tr>
+
+        <tr width="100%" style="align-items: center;">
+            <td colspan="100%" style="align-items: center;">
+                <table id="wer"> 
+                    <tr>
+                        <th rowspan="2">Level</th>
+                        <th rowspan="2">Name of Examination</th>
+                        <th rowspan="2">Years of Study</th>
+                        <th rowspan="2">Group/ Subject</th>
+                        <th rowspan="2">Division/Class/Grade</th>
+                        <th colspan="2">Board/University/Institute</th>
+                        <th rowspan="2">Year of Passing</th>
+                        <th rowspan="2">Result Pulished by Controller of Exam</th>
+                    </tr>
+
+                    <tr>
+                        <td>GPA/CGPA</td>
+                        <td>Out of</td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+
+        
+</table>
+</form>
+
+</body>
+</html>
