@@ -1,0 +1,11 @@
+- Data Type
+- Scope
+- Global and Local Variable 
+- Global and Local Scope
+- Closure
+- Hoisting
+- Callback Function
+- Promise
+- Async Function
+- Prototype
+- Array Default Function (map, reduce, Filter etc)
