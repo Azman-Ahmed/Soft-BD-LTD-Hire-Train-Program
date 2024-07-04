@@ -1,6 +1,7 @@
 - Data Type
 - Scope
 - Global and Local Variable 
+- Types of Functions
 - Global and Local Scope
 - Closure
 - Hoisting
@@ -10,3 +11,4 @@
 - Prototype
 - Array Default Function (map, reduce, Filter etc)
 - This
+- Regular Expression
