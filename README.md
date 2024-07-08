@@ -21,5 +21,7 @@ Download and Install
 
 1. Open CMD in the folder
 2. Write the command to create a new project 
-```bash
-composer create-project laravel/laravel example-app
+
+
+```python
+print("Hello World")
