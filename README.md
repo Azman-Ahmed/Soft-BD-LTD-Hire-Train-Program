@@ -11,15 +11,11 @@ After Installing Laragon
 1. Start the Server -> Menu -> tool ->Quick Add ->*phpmyadmin
 2. Start the Server -> Database -> phpMyAdmin
 
-<<<<<<< HEAD
 <img align="left" src="./img/laragon_start1.png" alt="Laragon front page" />
 <img align="left" src="./img/laragon_start2.png" alt="Laragon front page" />
 <img align="left" src="./img/laragon_start3.png" alt="Laragon front page" />
 <img align="left" src="./img/laragon_start4.png" alt="Laragon front page" />
 <img align="left" src="./img/phpmyadmin_log_in.png" alt="Laragon front page" />
-=======
-<img src="./img/laragon_start.png" alt="Laragon front page" />
->>>>>>> 6ddc0b058d0c967377168d37c62e4fa524f1b05e
 
 
 
