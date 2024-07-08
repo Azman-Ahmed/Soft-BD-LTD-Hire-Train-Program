@@ -35,6 +35,7 @@ Download and Install
 
 ```bash
 composer create-project laravel/laravel myapp1
+```
 
 **myapp1 will be created**
 
