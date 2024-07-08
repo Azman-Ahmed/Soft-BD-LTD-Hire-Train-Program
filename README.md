@@ -16,6 +16,14 @@ Download and Install
         <td> <img src="./img/laragon_start_1.png" alt="Laragon1" /> </td>
         <td> <img src="./img/laragon_start_2.png" alt="Laragon2" /> </td>
     </tr>
+    <tr>
+        <td> <img src="./img/laragon_start_3.png" alt="Laragon1" /> </td>
+        <td> <img src="./img/laragon_start_4.png" alt="Laragon2" /> </td>
+    </tr>
+    <tr>
+        <td> <img src="./img/phpmyadmin_log_in.png" alt="Laragon1" /> </td>
+    </tr>
+
 </table>
 
 
@@ -28,8 +36,3 @@ Download and Install
 ```bash
 composer create-project laravel/laravel example-app
 
-
-
-<img align="left" src="./img/laragon_start_3.png" alt="Laragon3" />
-<img align="left" src="./img/laragon_start_4.png" alt="Laragon4" />
-<img align="left" src="./img/phpmyadmin_log_in.png" alt="phpmyadmin" />
