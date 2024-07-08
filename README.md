@@ -39,4 +39,12 @@ composer create-project laravel/laravel myapp1
 
 **myapp1 will be created**
 
+Now open the directory of the project and run the project
+
+```bash
+cd myapp1
+php artisan serve
+```
+It win run on local host
+
 
