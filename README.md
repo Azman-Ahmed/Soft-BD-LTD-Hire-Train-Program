@@ -10,5 +10,5 @@ Download and Install
 After Installing Laragon 
 1. Start the Server
 
-<img align="left" src="./img/laragon_start" alt="Laragon front page" />
+<img src="./img/laragon_start" alt="Laragon front page" />
 
