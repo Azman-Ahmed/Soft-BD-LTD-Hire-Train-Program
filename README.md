@@ -34,5 +34,8 @@ Download and Install
 2. Write the command to create a new project
 
 ```bash
-composer create-project laravel/laravel example-app
+composer create-project laravel/laravel myapp1
+
+**myapp1 will be created**
+
 
