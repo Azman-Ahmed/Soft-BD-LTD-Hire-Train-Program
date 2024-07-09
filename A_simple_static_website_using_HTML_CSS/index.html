@@ -17,11 +17,6 @@
             height: 100vh; 
         }
 
-        .section2 {
-            background-image: url('img/001.jpg');
-            background-size: cover;
-        }
-
         nav ul {
             list-style-type: none;
             margin: 0;
@@ -29,7 +24,7 @@
             overflow: hidden;
             background-color: #800000;
             opacity: 50%;
-            height: 70px; 
+            height: 70px; /* Adjust the height of the navigation bar */
         }
 
         nav li {
@@ -40,8 +35,8 @@
             display: block;
             color: white;
             text-align: center;
-            padding: 20px 30px; 
-            font-size: 18px; 
+            padding: 20px 30px; /* Increase padding to make the nav bar larger */
+            font-size: 18px; /* Increase font size */
         }
 
         #li2 {
@@ -53,13 +48,25 @@
         }
 
         .section2 {
-            background-color: #f0f0f0;
-            padding: 50px;
-            height: 100vh; 
+            background-color: #800000;
+            padding: 20px;
+            text-align: center;
         }
 
-        .section2 h2 {
-            text-align: center;
+        .about-box {
+            background-color: rgba(255, 255, 255, 0.8); /* Lighter shade with opacity */
+            width: 90%;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(126, 3, 3, 0.1);
+        }
+
+        footer {
+            width: 100%;
+            color: white;
+            padding: 0px;
+            opacity: 50%;
         }
     </style>
 </head>
@@ -68,8 +75,8 @@
         <nav>
             <ul>
                 <li><a class="active" href="#home">Home</a></li>
-                <li><a class="active" href="#apply_online">Apply Online</a></li>
-                <li><a class="active" href="#contact">Contact</a></li>
+                <li><a class="active" href="apply_online.html">Apply Online</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
                 <li id="li2"><a class="active" href="#search_bar">Search Box</a></li>
                 <li id="li2"><a class="active" href="#search">Search</a></li>
             </ul>
@@ -77,8 +84,13 @@
     </div>
     
     <div class="section2">
-        <h2>More Content Here</h2>
-        <p>Add your additional content or different background images in this section.</p>
+        <div class="about-box">
+            <h2>About Us</h2>
+            <p>description goes here.</p>
+        </div>
+        <footer>
+            <p>&copy; 2024 Fitnation. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
