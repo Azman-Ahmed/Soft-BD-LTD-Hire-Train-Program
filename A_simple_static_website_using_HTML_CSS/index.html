@@ -14,7 +14,7 @@
             background-attachment: scroll;
             background-size: cover;
             background-repeat: no-repeat;
-            height: 100vh; 
+            height: 100vh; /* Full height of the viewport */
         }
 
         nav ul {
@@ -25,6 +25,7 @@
             background-color: #800000;
             opacity: 50%;
             height: 70px; /* Adjust the height of the navigation bar */
+            width: 100%; /* Ensure full width of the viewport */
         }
 
         nav li {
@@ -68,6 +69,42 @@
             padding: 0px;
             opacity: 50%;
         }
+
+        #tt1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(1000px); /* Full height minus nav bar */
+            width: 100%;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 20px 20px; /* Make buttons square */
+            margin: 10px;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+            background-color: #800000;
+            border: 2px solid white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-filled {
+            background-color: #800000;
+        }
+
+        .btn-white {
+            background-color: white;
+            color: #800000;
+        }
+
+        .btn:hover {
+            background-color: #562424;
+        }
+
     </style>
 </head>
 <body>
@@ -81,12 +118,16 @@
                 <li id="li2"><a class="active" href="#search">Search</a></li>
             </ul>
         </nav>
+        <div id="tt1">
+            <a class="btn btn-filled" href="#">Read More</a>
+            <a class="btn btn-white" href="#">Download Now</a>
+        </div>
     </div>
     
     <div class="section2">
         <div class="about-box">
             <h2>About Us</h2>
-            <p>description goes here.</p>
+            <p>Description goes here.</p>
         </div>
         <footer>
             <p>&copy; 2024 Fitnation. All rights reserved.</p>

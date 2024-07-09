@@ -1,11 +1,310 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fitnation</title>
-    <!-- CSS -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #333; /* Dark background for visibility */
+        margin: 0;
+        padding: 0;
+        color: white; /* White text for better contrast */
+    }
 
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        color: wheat;
+    }
+    h3 {
+        text-align: left;
+        margin-top: 20px;
+        color: wheat;
+    }
+
+    #outer {
+        width: 100%;
+        border-collapse: collapse; /* Remove default spacing between cells */
+        margin-top: 20px;
+        background-color: #222; /* Dark background for table */
+    }
+
+    #outer th, #outer td {
+        border: none; /* Remove borders */
+        padding: 10px;
+        text-align: left;
+        font-weight: bold; /* Make text very bold */
+    }
+
+    #outer h6 {
+        color: #800000;
+        margin: 10px;
+    }
+
+    .outer3 {
+        width: 25%;
+    }
+
+    .outer2 {
+        width: 20%;
+    }
+
+    .outer1 {
+        width: 5%;
+    }
+
+    #wer {
+        width: 100%;
+        border: none; /* Remove border */
+        text-align: center; /* Center-align content */
+    }
+
+    #wer .btn {
+        background-color: #800000;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    #wer .btn:hover {
+        background-color: #562424;
+    }
+
+    #wer .warning {
+        color: red;
+        font-size: 12px;
+    }
+</style>
 </head>
 <body>
-    <p>hello madafaka</p>
+
+<h2>Membership Form</h2>
+
+<form method="post" action="">
+<table id="outer">
+    <tr>
+        <td colspan="4">
+            <h3>You should fill up all required (*) information.</h3>
+        </td>
+    </tr>
+    <tr>
+        <td class="outer2">
+            <p>Name *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="text" name="Name"></td>
+        <td class="outer1"> </td>
+
+        <td class="outer2">
+            <p>Nationality *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="text" name="Nationality"></td>
+        <td class="outer1"> </td>
+    </tr>
+
+    <tr>
+        <td class="outer2">
+            <p>Gender *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </td>
+
+        <td class="outer1"> </td>
+        <td class="outer2">
+            <p>NID *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="text" name="NID"></td>
+        <td class="outer1"> </td>
+    </tr>
+
+    <tr>
+        <td class="outer2">
+            <label for="marital-status">Marital Status *</label>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"> 
+            <select name="marital-status">
+                <option value="Unmarried">Unmarried</option>
+                <option value="Married">Married</option>
+                <option value="Widow">Widow</option>
+                <option value="Divorced">Divorced</option>
+            </select> 
+        </td>
+        <td class="outer1"> </td>
+
+        <td class="outer2">
+            <p>Present Address *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td colspan="2"><textarea name="present-address"></textarea></td>
+    </tr>
+
+    <tr>
+        <td class="outer2">
+            <label for="dob">Date Of Birth *</label>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="datetime-local" id="dob" name="dob"></td>
+        <td colspan="4"></td>
+    </tr>
+
+    <tr>
+        <td class="outer2">
+            <p>Age as on 11/06/2024:</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3">
+            <p> Years Months Days</p>
+        </td>
+        <td class="outer1"> </td>
+
+        <td class="outer2">
+            <p>Permanent Address *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td colspan="2"><textarea name="Permanent-address"></textarea></td>
+    </tr>
+
+    <tr>
+        <td class="outer2">
+            <p>Father's Name *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="text" name="FatherName"></td>
+        <td class="outer1"> </td>
+
+        <td class="outer2">
+            <p>Mother's Name *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="text" name="MotherName"></td>
+        <td class="outer1"> </td>
+    </tr>
+
+    <tr>
+        <td class="outer2">
+            <p>Spouse's Name *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="text" name="SpouseName"></td>
+        <td class="outer1"> </td>
+
+        <td class="outer2">
+            <label for="district">District *</label>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td colspan="2">
+            <select name="district">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Rangpur">Rangpur</option>
+            </select> 
+        </td>
+    </tr>
+
+    <tr>
+        <td class="outer2">
+            <p>Contact Number *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="text" name="ContactNumber"></td>
+        <td class="outer1"> </td>
+
+        <td class="outer2">
+            <p>Email (If any) *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3"><input type="text" name="Email"></td>
+        <td class="outer1"> </td>
+    </tr>
+
+    <tr>
+        <td colspan="8">
+            <p class="warning">**Please upload your photo & signature carefully. No support will be provided if you upload photo instead of signature or signature instead of photo.</p>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="outer2">
+            <p>Photo *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3">
+            <fieldset style="margin-top:1px; height:220px;width: 200px;">
+                <input type="hidden" id="chkphoto" name="chkphoto" value="0">
+                <iframe id="imgiframe" style="top: 0;left: 0;right: 0;bottom: 0;scroll:no;overflow:hidden; background-color: white; height:220px; width:240px;" frameborder="0"></iframe>
+            </fieldset>
+        </td>
+        <td class="outer1"> </td>
+
+        <td class="outer2">
+            <p>Signature *</p>
+        </td>
+        <td class="outer1">
+            <p>:</p>
+        </td>
+        <td class="outer3">
+            <fieldset style="margin-top:1px; height:220px;width: 200px;">
+                <input type="hidden" id="chksignature" name="chksignature" value="0">
+                <iframe id="signiframe"  style="top: 0;left: 0;right: 0;bottom: 0;scroll:no;overflow:hidden; background-color:white; height:220px; width:240px;" frameborder="0"></iframe>
+            </fieldset>
+        </td>
+        <td class="outer1"> </td>
+    </tr>
+</table>
+
+<div id="wer">
+    <button type="submit" class="btn">Submit</button>
+</div>
+
+</form>
+
 </body>
 </html>
