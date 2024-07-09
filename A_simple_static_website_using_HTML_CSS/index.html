@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitnation</title>
+    <!-- CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .section1 {
+            background-image: url('img/001.jpg');
+            background-attachment: scroll;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh; 
+        }
+
+        .section2 {
+            background-image: url('img/001.jpg');
+            background-size: cover;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #800000;
+            opacity: 50%;
+            height: 70px; 
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px 30px; 
+            font-size: 18px; 
+        }
+
+        #li2 {
+            float: right;
+        }
+
+        nav li a:hover {
+            background-color: #562424;
+        }
+
+        .section2 {
+            background-color: #f0f0f0;
+            padding: 50px;
+            height: 100vh; 
+        }
+
+        .section2 h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="section1">
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a class="active" href="#apply_online">Apply Online</a></li>
+                <li><a class="active" href="#contact">Contact</a></li>
+                <li id="li2"><a class="active" href="#search_bar">Search Box</a></li>
+                <li id="li2"><a class="active" href="#search">Search</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="section2">
+        <h2>More Content Here</h2>
+        <p>Add your additional content or different background images in this section.</p>
+    </div>
+</body>
+</html>
