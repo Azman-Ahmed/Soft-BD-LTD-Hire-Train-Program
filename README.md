@@ -45,6 +45,57 @@ Now open the directory of the project and run the project
 cd myapp1
 php artisan serve
 ```
-It win run on local host
+It win run on local host.
+
+Laravel File structure:
+1. Model Folder
+2. Controller Folder
+3. View Folder
+4. Routing Folder
+5. Assests Folder
+
+Model Folder:
+Database/SQL Queries Handling Files
+Locate: app -> Http -> Model
+
+
+Controller Folder:
+Logics, Calls Model and View Elements
+Locate: app -> Http -> Controller
+
+View Folder:
+HTML files
+Locate: resources -> views -> all html related files
+
+Routing Folder:
+URL Defining Files
+Locate: routes -> web.route(routes for all the pages in the website)
+               -> api.route(routes for all the api)
+
+Assests Folder (Public Folder):
+Images, Videos, Music, Video Files
+CSS, JS
+Locate: public (index file)
+
+
+*** There are more folders in Laravel
+
+Resources Folder:
+CSS, JS (Which we dont wanna expose to the users)
+
+Config Folder: 
+All the configuration file
+
+Storage Folder:
+hold all the log files which are used for caching
+
+Test Folder:
+unit test files
+
+Vendor Folder:
+all the packages installed (library, gateway) with the help of composer
+
+
+
 
 
