@@ -96,6 +96,8 @@ Vendor Folder:
 all the packages installed (library, gateway) with the help of composer
 
 
+How does Routing works in Laravel
+
 
 
 
