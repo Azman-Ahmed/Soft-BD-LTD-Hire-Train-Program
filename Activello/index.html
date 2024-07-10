@@ -2,58 +2,58 @@
 <html>
 
 <head>
-    <style>
-        
-        .header-search-icon {
-            background: transparent;
-            color: #696969;
-        }
-        
-        
-        .fa {
-            display: inline-block;
-            font: normal normal normal 14px / 1 FontAwesome;
-            font-size: inherit;
-            text-rendering: auto;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        .fa-search:before {
-            content: "\f002";
-        }
-    </style>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav>
+    <header>
+        
+            <nav class="navbar-default">
                 <div class="container">
-                    <div class="row">
-                        <div class="site-navigation-inner col-sm-12">
-                            <div class="navbar-header">
-
-                            </div>
-                            <div class="collapse navbar-collapse navbar-ex1-collapse">
-
-                            </div>
-                            <div class="nav-search">
-                                <form action="index.html" method="get">
-                                    <input type="text" name="az" value placeholder="search">
-                                    <button type="submit" class="header-search-icon" name="submit" id="searchsubmit" value="Search">
-                                        <i class="fa fa-search"></i>
-                                    </button>
-                                </form>
-                            </div>
+                    <div class="navbar-content">
+                        <ul class="nav navbar-nav">
+                            <a href="#">Home</a>
+                            <a href="#">Apply Online</a>
+                            <a href="#">Contact</a>
+                        </ul>
+                        <div class="nav-search">
+                            <form action="index.html" method="get">
+                                <input type="text" name="az" placeholder="Search">
+                                <button type="submit" class="header-search-icon" name="submit" id="searchsubmit" value="Search">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </nav>
-        </header>
-    </div>
-    
+
+            <div class="container">
+                <div id="logo">
+                    <h1 class="site-name">Azman Ahmed
+                        <a href="https://colorlibhub.com/activello/" class="custom-logo-link" rel="home" aria-current="page">
+                            <img width="207" height="28" src="https://149842022.v2.pressablecdn.com/activello/wp-content/uploads/sites/57/2015/11/logo.png" class="custom-logo" alt="Activello Theme Demo" decoding="async">
+                        </a>
+                    </h1>
+                </div>
+            </div>
+        
+
+        
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="https://149842022.v2.pressablecdn.com/activello/wp-content/uploads/sites/57/2012/03/photo-1437915015400-137312b61975-1920x550.jpg" class="attachment-activello-slider size-activello-slider wp-post-image" alt="" decoding="async" fetchpriority="high" draggable="false">
+                </li>
+            </ul>
+        </div>
+        
+
+        
+        
+        
+    </header>
 </body>
 
 </html>

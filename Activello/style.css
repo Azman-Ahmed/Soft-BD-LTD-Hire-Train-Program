@@ -1,0 +1,95 @@
+.section1 {
+    background-color: white;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+.nav {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.navbar-default {
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    font-weight: 1000;
+    min-height: 0px; /* Increased navbar size */
+    padding: 20px 20px; /* Adjusted padding */
+    box-shadow: 0 0 2px #e3e3e3;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+.navbar-nav a {
+    display: inline;
+    padding: 0px 20px;
+}
+.nav-search {
+    float: right;
+    padding: 10px 0;
+}
+.navbar-container {
+    max-width: 1090px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-search-icon {
+    background: transparent;
+    color: #696969;
+    border: none;
+}
+.header-search-icon i {
+    font-size: 16px;
+}
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.site-name {
+    display: inline-block;
+    margin: 0;
+}
+a.custom-logo-link {
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 20px;
+    font-size: 30px;
+}
+  
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+  
+.item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.img {
+    max-width: 100%;
+}
