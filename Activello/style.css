@@ -74,3 +74,14 @@
     background-color: #2196F3;
     padding: 10px;
   }
+
+  .article-container .id404:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 40px;
+    margin-left: -20px;
+    background: #a161bf;
+}
