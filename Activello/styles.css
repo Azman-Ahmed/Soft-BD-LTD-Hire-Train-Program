@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.square {
+    background-color: green;
+    position: absolute;
+}
+
+/* Positioning classes */
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+/* Root-level squares */
+.first_page > .square {
+    width: 10%;
+    height: 10%;
+}
+
+.circle {
+    width: 20em;
+    height: 20em;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-square {
+    width: 70%;
+    height: 70%;
+    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-square > .inner-inner-square {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}
+
+.inner-square > .top-right {
+    width: 30%;
+    height: 30%;
+}
+
+.inner-square > .top-left {
+    width: 30%;
+    height: 30%;
+}
+
+.inner-square > .bottom-right {
+    width: 30%;
+    height: 30%;
+}
+
+.inner-square > .bottom-left {
+    width: 30%;
+    height: 30%;
+}
+
+.center-circle {
+    width: 30%;
+    height: 30%;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
