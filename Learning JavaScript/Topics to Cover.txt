@@ -12,3 +12,59 @@
 - Array Default Function (map, reduce, Filter etc)
 - Regular Expression
 - This
+
+30th July, 2024
+
+JS functions can take fucntion as a parameter and return function.
+
+Variables:
+Let 	-> 
+Var 	->
+const 	-> 
+
+Data Types:
+
+/*8 types of data types*/
+
+
+CLOSURE:
+/*
+function closural (a, callback)
+{
+	a = a + 10;
+	let val = callback(a);
+	return val;
+}
+function b(a){
+	return a * 10;
+}
+
+colsural(10, b);
+
+*/
+
+/*
+function createArray(size)
+{
+	let arr = [];
+	return function(){
+		for(let i = 0; i < size; i++){
+			arr.push(i);
+		}
+		return arr;
+	}
+}
+
+let generateArray5 = createArray(5); //generateArray5 is a function type
+let ourArr = generateArray5(); // ourArr is a Array type
+
+let generateArray5 = createArray(100); //generateArray5 is a function type
+let ourArr = generateArray5(); // ourArr is a Array type
+
+let ourArr = createArray(200)(); //ourArr is an Array type
+//This is called functional composition
+
+*/
+
+
+Topics I learned: Data Type, Lexical Scoping & Global, Closure
