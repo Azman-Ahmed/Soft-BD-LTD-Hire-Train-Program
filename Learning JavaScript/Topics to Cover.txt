@@ -66,5 +66,20 @@ let ourArr = createArray(200)(); //ourArr is an Array type
 
 */
 
+### 31st July, 2024
+
+Resources: 
+1. You Don't Know Js
+2. Learning JavaScript Design Pattern by Addy Osmani
+
+TASK: 
+1. CREATE 5 SCENARIOS WITH CLOSURE AND SOLVE THEM
+2. In How many ways we can create A object in JS
+
+Call by Reference, Call by Value
+In JS all the primitive data types follow Call by Value meaning that when we send it to a function a copy of the variable will be created and all the operations would be done on the copied variable. The main variable wont change.
+All the other variable such as object, function, array, string follows call by reference meaning when a objective is sent in a function the reference of the object is sent.
+
+
 
 Topics I learned: Data Type, Lexical Scoping & Global, Closure
