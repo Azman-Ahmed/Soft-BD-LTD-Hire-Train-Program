@@ -17,11 +17,16 @@ footer {
     
 }
 
-.header {
+div.lol {
+    position: sticky;
     overflow: hidden;
-    background-color: #f1f1f1;
+    top: 0;
+    background-color: red;
     padding: 20px 10px;
 }
+
+
+
 
 .sec1 {
     background-color: #f4f4f4;

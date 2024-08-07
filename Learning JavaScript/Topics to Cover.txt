@@ -83,3 +83,23 @@ All the other variable such as object, function, array, string follows call by r
 
 
 Topics I learned: Data Type, Lexical Scoping & Global, Closure
+
+
+
+### 7th August, 2024
+
+Create an object by creating a class
+
+///using a function as a construtor function:
+function product(name, price, qty){
+    this.name = name;
+    this.price = price;
+    this.qty = qty;
+    
+    
+}
+
+let p1 = new product("Laptop", 50000, 20);
+console.log(p1.name, p1.price, p1.qty);
+
+///
