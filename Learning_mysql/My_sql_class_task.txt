@@ -1,0 +1,20 @@
+SELECT 
+    users.id as User, 
+    first_name as First_Name, 
+    last_name as Last_Name, 
+    email as Mail_Address, 
+    gender as Gender, 
+    ip_address as IP, 
+    roles.Title as Role, 
+    countries.name AS Country,
+    city_counts.total_city as Total_city
+FROM 
+    users
+LEFT JOIN 
+    roles ON users.roll_id = roles.id
+LEFT JOIN 
+    countries ON users.id = countries.id
+LEFT JOIN 
+    (SELECT country_id, COUNT(id) AS total_city FROM cities GROUP BY country_id) AS city_counts 
+    ON countries.id = city_counts.country_id
+ORDER BY users.id;

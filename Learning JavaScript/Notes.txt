@@ -1,0 +1,24 @@
+- Data Type
+- Scope
+- Global and Local Variable 
+- Types of Functions
+- Global and Local Scope
+- Closure
+- Hoisting
+- Callback Function
+- Promise
+- Async Function
+- Prototype
+- Array Default Function (map, reduce, Filter etc)
+- Regular Expression
+- This
+
+Variables:
+Let 	-> 
+Var 	->
+const 	-> 
+
+Comment: //This is a Comment
+
+Data Types:
+/*8 types of data types*/

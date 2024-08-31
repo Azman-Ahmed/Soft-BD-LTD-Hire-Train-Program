@@ -103,3 +103,12 @@ let p1 = new product("Laptop", 50000, 20);
 console.log(p1.name, p1.price, p1.qty);
 
 ///
+
+
+### 8th August, 2024
+
+json
+ajax
+query selector all
+eloquent ORM
+bootstrap

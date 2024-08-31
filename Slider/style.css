@@ -1,0 +1,93 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+
+.flex-container .left {
+    background-color: #f1f1f1;
+    width: 20%;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container .right {
+    background-color: #f1f1f1;
+    width: 80%;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.one {
+    min-width: 100%;
+    min-height: 100vh;
+    /* flex-shrink: 0; */
+    text-align: center;
+
+    /* font-size: 24px; */
+    background-color: red;
+}
+
+.two {
+    min-width: 100%;
+    min-height: 100vh;
+    /* flex-shrink: 0; */
+    text-align: center;
+
+    /* font-size: 24px; */
+    background-color: red;
+}
+
+
+.three {
+    min-width: 100%;
+    min-height: 100vh;
+    flex-shrink: 0;
+    text-align: center;
+
+    /* font-size: 24px; */
+    background-color: red;
+}
+
+.slide {
+    width: 100%;
+    min-height: 100vh;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 24px;
+    background-color: #ccc;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: yellow;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

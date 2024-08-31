@@ -25,8 +25,15 @@ div.lol {
     padding: 20px 10px;
 }
 
-
-
+.soc{
+    position: fixed;
+    top: 30%;
+    left: 0vh; 
+    transform: translate(20vh, 0vh); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    z-index: 1000; 
+}
 
 .sec1 {
     background-color: #f4f4f4;
