@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <label class="logo">MD. Azman Ahmed</label>
+        <a href="admin.html">Admin</a>
+        <a href="Posts.html">Posts</a>
+        <a href="Contact.html">Contact</a>
+        <a href="#" class="active">Projects</a>
+        <a href="index.html">About Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <a href="list-of-projects.html">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A brief description of Project 1. Highlight key features or technologies used.</p>
+                    <span>Click to see more details...</span>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="list-of-projects.html">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A brief description of Project 1. Highlight key features or technologies used.</p>
+                    <span>Click to see more details...</span>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="list-of-projects.html">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A brief description of Project 1. Highlight key features or technologies used.</p>
+                    <span>Click to see more details...</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
+</body>
+</html>

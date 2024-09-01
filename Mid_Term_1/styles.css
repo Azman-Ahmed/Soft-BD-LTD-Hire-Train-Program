@@ -1,13 +1,293 @@
-.navbar ul{
-    list-style-type: none;
-    background-color: green;
-    padding: 0%;
-    margin: 0%;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #3e3e6d); /* Neon gradient background */
+    color: #ffffff;
 }
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 2%;
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.topnav a {
+    float: right;
     display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav .logo {
+    float: left;
+    padding: 14px 16px;
+    font-size: 20px;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.container {
+    padding: 100px 20px 40px; /* Adjust padding for topnav space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.left-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.left-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons .btn.hire-me {
+    background-color: #04AA6D;
+}
+
+.buttons .btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #04AA6D;
+}
+
+.right-content {
+    flex: 1.5; /* Increase the flex value to make the image section larger */
+    text-align: right;
+}
+
+.right-content .profile-photo {
+    max-width: 120%;
+    height: auto;
+    border-radius: 10px;
+    /* To make the image larger, adjust the following */
+    width: 120%; /* Increase the width as needed */
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    color: #f2f2f2;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* project.html */
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar styling */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.logo {
+    float: left;
+    color: #f2f2f2;
+    font-size: 22px;
+    padding: 14px 16px;
+}
+
+/* Projects section styling */
+#projects {
+    padding: 50px 20px;
+    /* background-color: #fff; */
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+/* Projects grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* Project card styling */
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 20px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* eije index page er jonno chatgpt theka neya css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.container {
+    padding: 50px 20px;
+}
+.about-section {
     text-align: center;
 }
+.about-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* project er ta */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+

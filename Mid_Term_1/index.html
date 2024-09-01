@@ -1,18 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Include your custom CSS -->
+    <style>
+        /* Custom styles can also be added here if needed */
+    </style>
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li> <a href=""> About Me </a> </li>
-            <li> <a href=""> Show Projects </a> </li>
-            <li> <a href=""> Contact </a> </li>
-        </ul>
-    </nav>
+
+    <div class="topnav" id="myTopnav">
+        <label class="logo">MD. Azman Ahmed</label>
+        <a href="admin.html">Admin</a>
+        <a href="Posts.html">Posts</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Projects.html">Projects</a>
+        <a href="index.html" class="active">About Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="container">
+        <section class="about-section">
+            <div class="left-content">
+                <h1>MD. Azman Ahmed</h1>
+                <p>Welcome to my portfolio! I'm a passionate web developer with a love for creating elegant and efficient solutions. With skills in HTML, CSS, JavaScript, and more, I thrive in bringing ideas to life on the web. Explore my projects and feel free to get in touch!</p>
+                <div class="buttons">
+                    <a href="contact.html" class="btn hire-me">Hire Me</a>
+                    <a href="projects.html" class="btn learn-more">Learn More</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/yourprofile" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourprofile" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <!-- Add more social links as needed -->
+                </div>
+            </div>
+            <div class="right-content">
+                <img src="img/bg_removed_img.png" alt="Your Name" class="profile-photo">
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 MD. Azman Ahmed. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- FontAwesome for icons -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
 </body>
 </html>

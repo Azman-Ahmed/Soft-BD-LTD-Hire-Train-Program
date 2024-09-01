@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <label class="logo">MD. Azman Ahmed</label>
+        <a href="admin.html">Admin</a>
+        <a href="Posts.html">Posts</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Projects.html">Projects</a>
+        <a href="index.html">About Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <section id="project-details">
+        <h2>Project 1: [Project Title]</h2>
+        <img src="project1.jpg" alt="Project 1 Image" class="project-image">
+        <p><strong>Description:</strong> Detailed description of Project 1. Explain the project objectives, the technologies used, challenges faced, and the outcome.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript, [Other technologies]</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Feature 1 of the project.</li>
+            <li>Feature 2 of the project.</li>
+            <li>Feature 3 of the project.</li>
+        </ul>
+        <p><strong>Project Links:</strong></p>
+        <ul>
+            <li><a href="https://github.com/username/project1" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://project1-live-demo.com" target="_blank">Live Demo</a></li>
+        </ul>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 MD. Azman Ahmed. All rights reserved.</p>
+    </footer>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
+</body>
+</html>
